@@ -98,3 +98,66 @@ footer p {
 	font: 10px/16px 'arial', sans-serif;
 }
 
+
+
+/* =========
+
+Media Queries
+
+=========*/
+
+
+
+/*Tablet Size*/
+@media screen and (max-width: 1024px) {
+
+
+	body{
+
+		background: yellow;
+
+	}
+
+	section.grid_3 {
+
+		width: 46%;
+
+	}
+
+
+}
+
+
+/*Mobile Size*/
+@media screen and (max-width: 480px) {
+
+
+	body{
+
+	background: red;
+
+	}
+
+	blockquote{
+
+		font-size: .75em;
+
+	}
+
+	section.grid_3 {
+
+		width: 100%;
+
+	}
+
+		p.grid_6{
+
+		width: 100%;
+
+	}
+
+}
+
+
+
+
